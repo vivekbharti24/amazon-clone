@@ -1,0 +1,43 @@
+.payment {
+  display: flex;
+  flex-direction: column;
+}
+.payment > h2 {
+  text-align: center;
+  background: lightgray;
+}
+.payment__container {
+  display: flex;
+  border-bottom: 2px solid lightgray;
+}
+.payment__title {
+  flex: 0.2;
+  padding: 20px;
+  margin: 10px;
+  font-weight: 600;
+}
+.payment__address,
+.payment__products,
+.payment__details {
+  flex: 0.8;
+}
+.payment__address {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.payment__card {
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.payment__card > p {
+  margin: 18px auto;
+}
+.payment__card > button {
+  height: 30px;
+  margin: 0 auto 5px;
+}

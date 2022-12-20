@@ -1,0 +1,59 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+.login__logo {
+  margin: -20px auto -30px;
+  object-fit: contain;
+  width: 190px;
+}
+.login__credentials {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: max-content;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.login__singhInbtn {
+  height: 30px;
+  margin-top: 10px;
+  width: 100%;
+  background: #f0c14b;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+.login__register {
+  height: 30px;
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid darkgrey;
+  border-radius: 3px;
+  color: #111;
+}
+.login__credentials > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.login__credentials > form > h5 {
+  margin-bottom: 5px;
+}
+.login__credentials > form > input {
+  height: 30px;
+  width: 98%;
+  background: white;
+  margin-bottom: 15px;
+}
+.login__credentials > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login__credentials > p > a {
+  text-decoration: none;
+}
